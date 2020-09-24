@@ -1,0 +1,24 @@
+PALETA 1
+
+#4e89ae
+#43658b
+#ed6663
+#ffa372
+
+PALETA 2
+#162447
+#1f4068
+#1b1b2f
+#e43f5a
+
+PALETA 3
+#4e89ae
+#43658b
+#ed6663
+#ffa372
+
+PALETA 4
+#2d4059
+#ea5455
+#decdc3
+#e5e5e5

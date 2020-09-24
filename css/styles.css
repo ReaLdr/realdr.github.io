@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.contenedor {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+hr{
+  border: 0;
+   height: 0;
+   border-top: 1px solid rgba(255, 163, 114, 21);
+   /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   max-width: 95rem;
+}
+
+/* U T I L I D A D E S */
+.centrar-texto {
+    text-align: center;
+}
+
+.justificar-texto{
+  text-align: justify;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}
+
+/* U T I L I D A D E S */
+
+/* HEADER */
+.site-header {
+    background-color: #2d4059;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.inicio {
+    background-image: url(../img/volkswagen76.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contenido-header h1,
+.contenido-header .typewrite {
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 2;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.navegacion a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    font-weight: 400;
+}
+
+.navegacion a:hover {
+    color: #eb5d12;
+    /* color: #ffa372; */
+    /* color: #ea5455; */
+}
+
+.navegacion a:last-of-type {
+    margin-right: 0;
+}
+
+/* HEADER */
+
+/* ¿QUIEN SOY? */
+.contenedor-habilidades{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.habilidad p{
+  font-size: 2em;
+}
+
+.html{
+  color: #dd4b25;
+}
+.css{
+  color: #136db0;
+}
+.js{
+  color: #dd9d27;
+}
+
+.habilidad{
+
+}
