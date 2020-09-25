@@ -47,6 +47,10 @@ hr{
 }
 
 /* U T I L I D A D E S */
+.seccion{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .centrar-texto {
     text-align: center;
 }
@@ -57,6 +61,18 @@ hr{
 
 .contenido-centrado {
     max-width: 800px;
+}
+
+.bg-color-naranja{
+  background-color: #ffa372;
+}
+
+.bg-color-azul{
+  background-color: #43658b;
+}
+
+.texto-color-blanco{
+  color: #FFFFFF;
 }
 
 /* U T I L I D A D E S */
@@ -99,6 +115,40 @@ hr{
     align-items: center;
     padding: 3rem;
 }
+.menu-fijo{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #43658b;
+    padding: .5rem 1rem;
+}
+.barra2{
+  background-color: #43658b;
+  padding: .5rem 1rem;
+}
+
+.imagen-logo{
+  position: relative;
+}
+
+.barra img{
+  background: #FFFFFF;
+  width: 6rem;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+
+.foto-perfil{
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.foto-perfil:hover{
+  transform: scale(1.5);
+}
 
 .navegacion a {
     color: #FFFFFF;
@@ -121,6 +171,12 @@ hr{
 /* HEADER */
 
 /* ¿QUIEN SOY? */
+
+/* HABILIDADES */
+main {
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+}
 .contenedor-habilidades{
   display: flex;
   justify-content: space-between;
@@ -130,17 +186,185 @@ hr{
 .habilidad p{
   font-size: 2em;
 }
-
+/* TECNOLOGÍAS */
+.html,.css,.js,.php, .java, .cpp, .mysql, .sqlserver{
+  width: 100%;
+}
 .html{
   color: #dd4b25;
 }
+.porcentaje-html{
+  background-color: #dd4b25;
+  width: 70%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
 .css{
   color: #136db0;
 }
+.porcentaje-css{
+  background-color: #136db0;
+  width: 50%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
 .js{
   color: #dd9d27;
 }
+.porcentaje-js{
+  background-color: #dd9d27;
+  width: 45%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+.jquery{
+  color: #0467ad;
+}
+.porcentaje-jquery{
+  background-color: #0467ad;
+  width: 40%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+.php{
+  color: #7377ad;
+}
+.porcentaje-php{
+  background-color: #7377ad;
+  width: 70%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+.java{
+  color: #066cb4;
+}
+.porcentaje-java{
+  background-color: #066cb4;
+  width: 10%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+.cpp{
+  color: #00427d;
+}
+.porcentaje-cpp{
+  background-color: #00427d;
+  width: 10%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+.mysql{
+  color: #0a6390;
+}
+.porcentaje-mysql{
+  background-color: #0a6390;
+  width: 70%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+.sqlserver{
+  color: #c42523;
+}
+.porcentaje-sqlserver{
+  background-color: #c42523;
+  width: 80%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 9.5px;
+  border-radius: 2px;
+}
+
+/* TECNOLOGÍAS */
 
 .habilidad{
-
+  flex-basis: calc(33.3% - 1rem);
 }
+
+/* HABILIDADES */
+
+/* PASATIEMPO */
+section .imagen-pasatiempo{
+  background-color: #ffa372;
+  width: 100%;
+}
+.imagen-pasatiempo{
+  background-image: url(../img/cuaji.jpg);
+  height: 40rem;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.contenido-pasatiempo{
+  flex: 1;
+  color: #FFFFFF;
+}
+.contenido-pasatiempo p{
+  color: #FFFFFF;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 2;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+}
+/* PASATIEMPO */
+
+/* CONTACTO */
+section .contacto{
+  background-color: rgb(242, 242, 242);
+}
+label{
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+input:not([type="submit"]), textarea, select{
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  background-color: #e1e1e1;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+/* CONTACTO */
+
+/* FOOTER */
+footer{
+  background-color: #2d4059;
+  padding: 2rem;
+  text-align: center;
+  font-size: 4rem;
+}
+.copyright {
+    margin: 0;
+    color: #ffffff;
+}
+/* FOOTER */
